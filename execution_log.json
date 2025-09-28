@@ -1,0 +1,65 @@
+{
+  "success": true,
+  "original_query": "search for laptops under 50k and list top 5",
+  "actions_executed": 7,
+  "extracted_data": "EXTRACTION METHOD 1:\nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. Why did this happen?\nIP address: 2405:201:c076:583e:34bb:db8a:6ec5:edb6\nTime: 2025-09-27T17:32:45Z\nURL: https://www.google.com/search?q=laptops+under+50k+and+top+5&sca_esv=a5e89f5d8e234019&source=hp&ei=th_YaPaSCrKfseMP_-nZqQk&iflsig=AOw8s4IAAAAAaNgtxuADb5z0QdmiSPHogzxUSWEGrdi2&ved=0ahUKEwj2xYXPvPmPAxWyT2wGHf90NpUQ4dUDCCI&oq=laptops+under+50k+and+top+5&gs_lp=Egdnd3Mtd2l6IhtsYXB0b3BzIHVuZGVyIDUwayBhbmQgdG9wIDUyBhAAGBYYHjIGEAAYFhgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyBRAAGO8FMggQABiABBiiBDIFEAAY7wUyCBAAGKIEGIkFMggQABiABBiiBEiYCFAAWABwAHgAkAEAmAHBAaABwQGqAQMwLjG4AQzIAQD4AQGYAgGgAskBmAMAkgcDMi0xoAepBrIHAzItMbgHyQHCBwMyLTHIBwY&sclient=gws-wiz&sei=vB_YaJfcNaqeseMP3oOPiQk",
+  "final_summary": "Here's what I found for 'search for laptops under 50k and list top 5':\n\nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. Why did this happen?\nIP address: 2405:201:c076:583e:34bb:db8a:6ec5:edb6\nTime: 2025-09-27T17:32:45Z\nURL: https://www.google.com/search?q=laptops+under+50k+and+top+5&sca_esv=a5e89f5d8e234019&source=hp&ei=th_YaPaSCrKfseMP_-nZqQk&iflsig=AOw8s4IAAAAAaNgtxuADb5z0QdmiSPHogzxUSWEGrdi2&ved=0ahUKEwj2xYXPvPmPAxWyT2wGHf90NpUQ4dUDCCI&oq=laptops+under+50k+and+top+5&gs_lp=Egdnd3Mtd2l6IhtsYXB0b3BzIHVuZGVyIDUwayBhbmQgdG9wIDUyBhAAGBYYHjIGEAAYFhgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyBRAAGO8FMggQABiABBiiBDIFEAAY7wUyCBAAGKIEGIkFMggQABiABBiiBEiYCFAAWABwAHgAkAEAmAHBAaABwQGqAQMwLjG4AQzIAQD4AQGYAgGgAskBmAMAkgcDMi0xoAepBrIHAzItMbgHyQHCBwMyLTHIBwY&sclient=gws-wiz&sei=vB_YaJfcNaqeseMP3oOPiQk",
+  "execution_log": [
+    {
+      "action": {
+        "action": "navigate",
+        "value": "https://www.google.com",
+        "description": "Go to Google homepage"
+      },
+      "result": "Navigated to https://www.google.com"
+    },
+    {
+      "action": {
+        "action": "wait",
+        "value": "3000",
+        "description": "Wait for page to load completely"
+      },
+      "result": "Waited 3000ms"
+    },
+    {
+      "action": {
+        "action": "type",
+        "selector": "textarea, input[type='text'], [name='q']",
+        "value": "laptops under 50k and top 5",
+        "description": "Type search query: laptops under 50k and top 5"
+      },
+      "result": "Typed 'laptops under 50k and top 5' into textarea"
+    },
+    {
+      "action": {
+        "action": "wait",
+        "value": "1000",
+        "description": "Wait before searching"
+      },
+      "result": "Waited 1000ms"
+    },
+    {
+      "action": {
+        "action": "click",
+        "selector": "input[type='submit'], button, [value='Google Search']",
+        "description": "Click search button"
+      },
+      "result": "Clicked input[type='submit']"
+    },
+    {
+      "action": {
+        "action": "wait",
+        "value": "8000",
+        "description": "Wait for results to load completely"
+      },
+      "result": "Waited 8000ms"
+    },
+    {
+      "action": {
+        "action": "extract",
+        "description": "Extract search results using multiple methods"
+      },
+      "result": "EXTRACTION METHOD 1:\nOur systems have detected unusual traffic from your computer network. This page checks to see if it's really you sending the requests, and not a robot. Why did this happen?\nIP address: 2405:201:c076:583e:34bb:db8a:6ec5:edb6\nTime: 2025-09-27T17:32:45Z\nURL: https://www.google.com/search?q=laptops+under+50k+and+top+5&sca_esv=a5e89f5d8e234019&source=hp&ei=th_YaPaSCrKfseMP_-nZqQk&iflsig=AOw8s4IAAAAAaNgtxuADb5z0QdmiSPHogzxUSWEGrdi2&ved=0ahUKEwj2xYXPvPmPAxWyT2wGHf90NpUQ4dUDCCI&oq=laptops+under+50k+and+top+5&gs_lp=Egdnd3Mtd2l6IhtsYXB0b3BzIHVuZGVyIDUwayBhbmQgdG9wIDUyBhAAGBYYHjIGEAAYFhgeMgsQABiABBiGAxiKBTILEAAYgAQYhgMYigUyBRAAGO8FMggQABiABBiiBDIFEAAY7wUyCBAAGKIEGIkFMggQABiABBiiBEiYCFAAWABwAHgAkAEAmAHBAaABwQGqAQMwLjG4AQzIAQD4AQGYAgGgAskBmAMAkgcDMi0xoAepBrIHAzItMbgHyQHCBwMyLTHIBwY&sclient=gws-wiz&sei=vB_YaJfcNaqeseMP3oOPiQk"
+    }
+  ]
+}
