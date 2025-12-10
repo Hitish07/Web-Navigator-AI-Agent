@@ -37,11 +37,6 @@ python chat_console.py
 
 "Fill out this form with test data" - Automate form interactions
 
-
-**🎥 Demo Video**
-https://drive.google.com/file/d/1QCSObxsY30CkHQG7Ml4VdXO6xEYerGtA/view?usp=drivesdk
-Watch the demo video to see the system in action
-
 💬 Usage Examples
 Start the application: python web_app.py
 
